@@ -1,9 +1,9 @@
-#Improving CTR Prediction Performance Using Ensemble Learning Framework with Reinforcement Learning
+# Improving CTR Prediction Performance Using Ensemble Learning Framework with Reinforcement Learning
 
-##RLCP:
+## RLCP:
 This is the code of the paper "Improving CTR Prediction Performance Using Ensemble Learning Framework with Reinforcement Learning".
 
-##Instructions:
+## Instructions:
 
 * Step1 The IPinYou dataset used in this paper comes from make-ipinyou-data https://github.com/wnzhang/make-ipinyou-data. Unzip the dataset following the introduction on the above website, and copy the dataset to the ./data directory.
 * Step2 Run ./encode/data_.py  to preprocess the raw dataset.
