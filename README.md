@@ -1,11 +1,9 @@
-# Improving CTR Prediction Performance Using Ensemble Learning Framework with Reinforcement Learning
+# An Ensemble Learning Framework for Click-through Rate Prediction based on a Reinforcement Learning Algorithm with Parameterized Actions
 
 ## RLCP:
-This is the code of the paper "Improving CTR Prediction Performance Using Ensemble Learning Framework with Reinforcement Learning".
+This is the code of the paper "An Ensemble Learning Framework for Click-through Rate Prediction based on a Reinforcement Learning Algorithm with Parameterized Actions".
 
 ## Instructions:
+* Step1 Generate the ctr prediction of the base model(for the ipinyou dataset, the base model code is located in the src\ipinyou_base_model, for the criteo dataset, the base model code is located in the src\criteo_base_model,for the avazu dataset, we use the code from https://github.com/xue-pai/FuxiCTR)
 
-* Step1 The IPinYou dataset used in this paper comes from make-ipinyou-data https://github.com/wnzhang/make-ipinyou-data. Unzip the dataset following the introduction on the above website, and copy the dataset to the ./data directory.
-* Step2 Run ./encode/data_.py  to preprocess the raw dataset.
-* Step3 Run ./main/pretrain_main.py to pretrain several basic click-through prediction models.
-* Step4 Run ./main/hybrid_td3_main_per_v13.py to train the model proposed in this paper.The variable "campaign_id" can be used to specify the dataset for training
+* Step2 Run ./main/hybrid_td3_main_per_v13.py to train the model proposed in this paper.The variable "campaign_id" can be used to specify the dataset for training
