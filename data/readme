@@ -1,1 +1,3 @@
-Unzip the dataset following the introduction on the website, https://github.com/wnzhang/make-ipinyou-data, and copy the dataset to this folder.
+PinYou : https://contest.ipinyou.com
+Criteo : https://labs.criteo.com/downloads/download-terabyte-click-logs/
+Avazu : https://www.kaggle.com/c/avazu-ctr-prediction
